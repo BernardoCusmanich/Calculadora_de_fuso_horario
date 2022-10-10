@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/purecss@2.1.0/build/pure-min.css"
+            integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH"
+            crossorigin="anonymous"
+        />
+
+        <title>Programa de fuso horário</title>
+    </head>
+    <body>
+        <style scoped="">
+            .button-azul {
+                background: rgb(103, 162, 245);
+            }
+        </style>
+
+        <div>
+            <img
+                src="https://www.coladaweb.com/wp-content/uploads/2014/12/20210727-fusos2.png"
+                alt="Globo Terrestre"
+            />
+        </div>
+        <h1>Programa Fuso Horário</h1>
+        <p>
+            Hora no Brasil (h.m):
+            <input type="text" id="inHoraBrasil" />
+        </p>
+        <p>
+            <button class="button-azul pure-button" id="btExibir">
+                Exibir hora na frança
+            </button>
+        </p>
+        <h3 id="outHoraRussia"></h3>
+
+        <script src="main.js"></script>
+    </body>
+</html>
